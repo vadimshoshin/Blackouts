@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CCC682A2955DFE2001466BF /* BlackoutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC68292955DFE2001466BF /* BlackoutsApp.swift */; };
+		1CCC682C2955DFE2001466BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC682B2955DFE2001466BF /* ContentView.swift */; };
+		1CCC682E2955DFE3001466BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCC682D2955DFE3001466BF /* Assets.xcassets */; };
+		1CCC68312955DFE3001466BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCC68302955DFE3001466BF /* Preview Assets.xcassets */; };
+		1CCC68392955E02E001466BF /* PeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC68382955E02E001466BF /* PeriodView.swift */; };
+		1CCC683C2955E046001466BF /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC683B2955E046001466BF /* Period.swift */; };
+		1CCC683E2955E151001466BF /* DayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC683D2955E151001466BF /* DayType.swift */; };
+		1CCC68432955E29F001466BF /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC68422955E29F001466BF /* UIColor+Extensions.swift */; };
+		1CCC68452955E917001466BF /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC68442955E917001466BF /* DayView.swift */; };
+		1CCC68472955EB5D001466BF /* ShutdownType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC68462955EB5D001466BF /* ShutdownType.swift */; };
+		1CCC68492955EB7A001466BF /* DayGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC68482955EB7A001466BF /* DayGroup.swift */; };
+		1CCC684C2955F678001466BF /* BlackoutsNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC684B2955F678001466BF /* BlackoutsNavBar.swift */; };
+		1CCC684E2955F7CE001466BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC684D2955F7CE001466BF /* Constants.swift */; };
+		1CCC68522956394C001466BF /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC68512956394C001466BF /* LocalStorage.swift */; };
+		1CCC68542956398D001466BF /* WeeklySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC68532956398D001466BF /* WeeklySchedule.swift */; };
+		1CCC68562956415A001466BF /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC68552956415A001466BF /* EmptyStateView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CCC68262955DFE2001466BF /* Blackouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCC68292955DFE2001466BF /* BlackoutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackoutsApp.swift; sourceTree = "<group>"; };
+		1CCC682B2955DFE2001466BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CCC682D2955DFE3001466BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CCC68302955DFE3001466BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CCC68382955E02E001466BF /* PeriodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodView.swift; sourceTree = "<group>"; };
+		1CCC683B2955E046001466BF /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		1CCC683D2955E151001466BF /* DayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayType.swift; sourceTree = "<group>"; };
+		1CCC68422955E29F001466BF /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		1CCC68442955E917001466BF /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		1CCC68462955EB5D001466BF /* ShutdownType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutdownType.swift; sourceTree = "<group>"; };
+		1CCC68482955EB7A001466BF /* DayGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayGroup.swift; sourceTree = "<group>"; };
+		1CCC684A2955F3B4001466BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1CCC684B2955F678001466BF /* BlackoutsNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackoutsNavBar.swift; sourceTree = "<group>"; };
+		1CCC684D2955F7CE001466BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1CCC68512956394C001466BF /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		1CCC68532956398D001466BF /* WeeklySchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySchedule.swift; sourceTree = "<group>"; };
+		1CCC68552956415A001466BF /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CCC68232955DFE2001466BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CCC681D2955DFE2001466BF = {
+			isa = PBXGroup;
+			children = (
+				1CCC68282955DFE2001466BF /* Blackouts */,
+				1CCC68272955DFE2001466BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CCC68272955DFE2001466BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC68262955DFE2001466BF /* Blackouts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CCC68282955DFE2001466BF /* Blackouts */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC684A2955F3B4001466BF /* Info.plist */,
+				1CCC683A2955E038001466BF /* Views */,
+				1CCC68372955E008001466BF /* Models */,
+				1CCC68412955E291001466BF /* Utils */,
+				1CCC68292955DFE2001466BF /* BlackoutsApp.swift */,
+				1CCC682B2955DFE2001466BF /* ContentView.swift */,
+				1CCC682D2955DFE3001466BF /* Assets.xcassets */,
+				1CCC682F2955DFE3001466BF /* Preview Content */,
+			);
+			path = Blackouts;
+			sourceTree = "<group>";
+		};
+		1CCC682F2955DFE3001466BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC68302955DFE3001466BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CCC68372955E008001466BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC683B2955E046001466BF /* Period.swift */,
+				1CCC683D2955E151001466BF /* DayType.swift */,
+				1CCC68462955EB5D001466BF /* ShutdownType.swift */,
+				1CCC68482955EB7A001466BF /* DayGroup.swift */,
+				1CCC68532956398D001466BF /* WeeklySchedule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1CCC683A2955E038001466BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC68382955E02E001466BF /* PeriodView.swift */,
+				1CCC68442955E917001466BF /* DayView.swift */,
+				1CCC684B2955F678001466BF /* BlackoutsNavBar.swift */,
+				1CCC68552956415A001466BF /* EmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1CCC68412955E291001466BF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC68422955E29F001466BF /* UIColor+Extensions.swift */,
+				1CCC684D2955F7CE001466BF /* Constants.swift */,
+				1CCC68512956394C001466BF /* LocalStorage.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CCC68252955DFE2001466BF /* Blackouts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CCC68342955DFE3001466BF /* Build configuration list for PBXNativeTarget "Blackouts" */;
+			buildPhases = (
+				1CCC68222955DFE2001466BF /* Sources */,
+				1CCC68232955DFE2001466BF /* Frameworks */,
+				1CCC68242955DFE2001466BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blackouts;
+			productName = Blackouts;
+			productReference = 1CCC68262955DFE2001466BF /* Blackouts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CCC681E2955DFE2001466BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1CCC68252955DFE2001466BF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1CCC68212955DFE2001466BF /* Build configuration list for PBXProject "Blackouts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CCC681D2955DFE2001466BF;
+			productRefGroup = 1CCC68272955DFE2001466BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CCC68252955DFE2001466BF /* Blackouts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CCC68242955DFE2001466BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCC68312955DFE3001466BF /* Preview Assets.xcassets in Resources */,
+				1CCC682E2955DFE3001466BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CCC68222955DFE2001466BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCC68452955E917001466BF /* DayView.swift in Sources */,
+				1CCC68522956394C001466BF /* LocalStorage.swift in Sources */,
+				1CCC684E2955F7CE001466BF /* Constants.swift in Sources */,
+				1CCC682C2955DFE2001466BF /* ContentView.swift in Sources */,
+				1CCC68432955E29F001466BF /* UIColor+Extensions.swift in Sources */,
+				1CCC68542956398D001466BF /* WeeklySchedule.swift in Sources */,
+				1CCC68562956415A001466BF /* EmptyStateView.swift in Sources */,
+				1CCC68472955EB5D001466BF /* ShutdownType.swift in Sources */,
+				1CCC684C2955F678001466BF /* BlackoutsNavBar.swift in Sources */,
+				1CCC68392955E02E001466BF /* PeriodView.swift in Sources */,
+				1CCC68492955EB7A001466BF /* DayGroup.swift in Sources */,
+				1CCC683C2955E046001466BF /* Period.swift in Sources */,
+				1CCC683E2955E151001466BF /* DayType.swift in Sources */,
+				1CCC682A2955DFE2001466BF /* BlackoutsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CCC68322955DFE3001466BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CCC68332955DFE3001466BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CCC68352955DFE3001466BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blackouts/Preview Content\"";
+				DEVELOPMENT_TEAM = 4VG8M9JHQ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blackouts/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vshoshin.Blackouts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CCC68362955DFE3001466BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blackouts/Preview Content\"";
+				DEVELOPMENT_TEAM = 4VG8M9JHQ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blackouts/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vshoshin.Blackouts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CCC68212955DFE2001466BF /* Build configuration list for PBXProject "Blackouts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCC68322955DFE3001466BF /* Debug */,
+				1CCC68332955DFE3001466BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CCC68342955DFE3001466BF /* Build configuration list for PBXNativeTarget "Blackouts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCC68352955DFE3001466BF /* Debug */,
+				1CCC68362955DFE3001466BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CCC681E2955DFE2001466BF /* Project object */;
+}
